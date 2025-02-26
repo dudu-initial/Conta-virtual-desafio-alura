@@ -1,11 +1,9 @@
-import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         String nome = "Eduardo";
         String tipoDeConta = "Conta corrente";
-        String chavePix = "21521k5210alda12";
         double saldo = 2150.00;
         int opcao = 0;
 
@@ -19,7 +17,7 @@ public class Main {
                 ** Digite sua opção **
                 1 - Consultar saldo
                 2 - Transferir valor
-                3 - Receber valor 
+                3 - Receber valor
                 4 - Sair
                 
                 """;
